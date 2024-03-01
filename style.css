@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+header .navbar{
+    /* border: blue; */
+    background-color: rgba(255, 255, 255, 0.247);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin: 10px;
+}
+.navbar .menuLinks{
+    width:100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menuLinks{
+    height: 50px;
+    background-color: transparent;
+    /* color: #1d252c; */
+    /* font-size: .82353rem; */
+}
+.menuBar{
+    text-decoration: none;
+}
+a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+.heroSection{
+    height:40rem;
+    background-image: url(https://i.pinimg.com/originals/16/69/e5/1669e57761ccc67fa5e31a09a54764d0.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 300;
+    max-width: 600px;
+    margin-top: 15px;
+}
+.content h2{
+    font-size: 5em;
+    text-shadow: 2px 2px #666666;
+}
+.content p{
+    font-size: 1.3em;
+    font-weight: 500;
+    text-shadow: 2px 2px #666666;
+}
+.button1{
+    background-color: #ffffffc7; 
+    border: none;
+    color: rgba(0, 0, 0, 0.884);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 750;
+    border-radius: 12px;
+    cursor: pointer;
+    transform: translateY(100%);
+  }
+  .button1:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+  }
+
+  /*---------------------------------------------------------*/
+
+  .benFeature{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+  }
+  
+
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    margin:1rem;
+    border-radius: 3%;
+}
+.adimgOne{
+    margin-right: 10px;
+}
+.adimgTwo{
+    margin-right: 10px;
+}
+.adimgThree{
+    margin-right: 10px;
+}
+.adimgFour{
+    margin-right: 10px;
+}
+
+
+.site-footer {
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color: #3764496e;
+    color: #fff; 
+    padding: 80px; 
+    text-align: bottom; 
+    justify-content: space-evenly;
+}
+.lofiAndcode{
+    margin: 7px;
+    font-size: 3em;
+    text-align: left;
+}
+.subPara{
+    font-size: 1em;
+    margin: 5px;
+    margin-bottom: -2%;
+    padding-top: 10px;
+}
+.copyright{
+    font-size: .8em;
+    position: relative;
+    margin: 5px;
+    margin-bottom: -2%;
+    text-align: right;
+}
+.disclaimer{
+    font-size: .9em;
+    padding: 42px 75px 23px;
+        padding-top: 42px;
+        padding-right: 75px;
+        padding-bottom: 23px;
+        padding-left: 75px;
+}
